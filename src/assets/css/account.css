@@ -1,0 +1,424 @@
+.template .main .container-r .account-table,
+.template .main .container-r .account-table .account-table-1,
+.template .main .container-r .account-table .account-table-1 tr,
+.template .main .container-r .account-table .account-table-1 th,
+.template .main .container-r .account-table .account-table-1 td {
+  font-size: 14px;
+  font-weight: 400;
+}
+.template .main .container-r .account-table {
+  height: calc(-25%);
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+.btn,
+.super-link {
+  color: #0099ff;
+}
+.btn:hover {
+  color: #0099ff;
+}
+.super-link:hover {
+  color: #0099ff;
+}
+.btn-info {
+  color: #fff;
+}
+.btn-info:hover {
+  color: #fff;
+}
+.icon_sub {
+  width: 34px;
+  height: 28px;
+  display: inline-block;
+  background: transparent url(../images/icons_sprint.png) 50% no-repeat;
+  background-position: 0 -340px !important;
+}
+.icon-bg {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+.account-info {
+  padding-left: 5px;
+}
+.account-name {
+  padding-left: 10px;
+  color: #0099ff;
+}
+.pulp {
+  margin-right: 3px;
+}
+.down-wrap {
+  height: calc(40%);
+  overflow: hidden;
+}
+.down-wrap .btn {
+  color: #0099ff;
+}
+.down-wrap .account-tab {
+  height: 100%;
+}
+.down-wrap .account-tab .account-tab-title {
+  height: 60px;
+}
+.down-wrap .account-tab .account-tab-title li {
+  min-width: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.down-wrap .account-tab .account-tab-title .layui-this {
+  color: #0099ff;
+  font-size: 16px;
+}
+.down-wrap .account-tab .account-tab-title .layui-this::after {
+  border-bottom: 2px solid #0099ff;
+  height: 61px;
+}
+.down-wrap .bg1 {
+  background-color: inherit;
+  width: 25px;
+  height: 25px;
+  padding: 0px 5px;
+}
+.down-wrap .bg1:hover {
+  background-color: #fff;
+}
+.down-wrap .layui-tab-content {
+  height: calc(30%);
+  overflow-y: auto;
+}
+.down-wrap .layui-tab-content .nav-cursor {
+  min-height: 40px;
+}
+.down-wrap .layui-tab-content .nav-cursor .bgc12 .btn-right-1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.down-wrap .layui-tab-content .nav-cursor .bgc12 .btn-right-1 .btn-margin {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.down-wrap .layui-tab-content .nav-cursor .bgc12 .nav-margin-left {
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.down-wrap .layui-tab-content .nav-other {
+  min-height: 40px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg {
+  background-color: #DFE9F0;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .table-bg {
+  background-color: #FFFFFF;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .table-bg .child-table-th,
+.down-wrap .layui-tab-content .nav-other .modules-bg .table-bg .child-table-td {
+  font-size: 14px;
+  font-weight: 400;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .btn-right-1 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .btn-right-1 .btn-margin {
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .nav-margin-left {
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-permission-sort {
+  width: 49%;
+  display: flex;
+  margin-bottom: 35px;
+  padding: 10px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-permission-sort .monitor-sort-check {
+  width: 60px;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-permission-sort .monitor-sort-check .m-span-box {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #2490f5 url(../images/icons_sprint.png) 50% no-repeat;
+  background-position: -216px -295px !important;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-permission-sort .monitor-sort-check .m-span-box1 {
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #ddd url(../images/icons_sprint.png) 50% no-repeat;
+  background-position: -216px -295px !important;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-permission-sort:nth-of-type(odd) {
+  border-right: 1px dashed #ccc;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-sort-explain {
+  padding-left: 10px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-sort-explain h3 {
+  font-size: 14px;
+  line-height: 35px;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg .children_box_table .monitor-permission .monitor-sort-explain p {
+  font-size: 12px;
+  line-height: 30px;
+  color: #666;
+}
+.down-wrap .layui-tab-content .nav-other .modules-bg:hover {
+  cursor: pointer;
+}
+.down-wrap .layui-tab-content .subaccount-info .subaccount-info-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.down-wrap .layui-tab-content .subaccount-info .subaccount-info-ul .subaccount-info-li {
+  width: 49.5%;
+  padding: 30px 0 10px 10px;
+  border-bottom: 1px solid #ddd9ec;
+}
+.down-wrap .layui-tab-content .subaccount-info .subaccount-info-ul .subaccount-info-li .subaccount-info-li-title {
+  font-size: 14px;
+}
+.down-wrap .layui-tab-content .subaccount-info .subaccount-info-ul .subaccount-info-li .subaccount-info-li-content {
+  font-size: 12px;
+}
+.down-wrap .layui-tab-content .subaccount-info .subaccount-info-ul .subaccount-info-li:nth-of-type(even) {
+  margin-left: 4px;
+}
+.down-wrap .layui-tab-content .nav-cursor .bgc12:hover {
+  cursor: pointer;
+  background-color: #ebffe5;
+}
+.down-wrap .layui-tab-content .nav-cursor-1 .bgc12 {
+  background-color: #DFE9F0;
+}
+.down-wrap .layui-tab-content .nav-cursor-1 .bgc12:hover {
+  background-color: #DEEDF0;
+}
+.down-wrap .layui-tab-content .account-info-1 .account-info-1-box {
+  width: 48.2%;
+  display: flex;
+  background: #f4f6f9;
+  padding: 15px 0 10px 20px;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  border: 1px solid #d8dde6;
+  position: relative;
+}
+.down-wrap .layui-tab-content .account-info-1 .account-info-1-box .account-icon {
+  width: 10%;
+  color: #0099ff;
+}
+.down-wrap .layui-tab-content .account-info-1 .account-info-1-box .account-info-1-box-content {
+  width: 70%;
+  padding-left: 12px;
+}
+.down-wrap .layui-tab-content .account-info-1 .account-info-1-box .account-info-1-box-content .child_link {
+  color: #0099ff;
+  font-size: 14px;
+}
+.down-wrap .layui-tab-content .account-info-1 .account-info-1-box .account-info-1-box-content .child_content {
+  padding-top: 10px;
+  color: #888;
+  font-size: 12px;
+}
+.down-wrap .layui-tab-content .account-info-1 .btn-right-2 {
+  width: 100%;
+  text-align: right;
+  padding-right: 20px;
+}
+.down-wrap .layui-tab-content .account-info-1-box:nth-of-type(even) {
+  margin-left: 3%;
+}
+.down-wrap .grid {
+  width: 50%;
+}
+.down-wrap .flex_wa {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.down-wrap .account-sub-title {
+  font-size: 16px;
+  line-height: 30px;
+}
+.down-wrap .account-sub-content {
+  font-size: 14px;
+  color: #888;
+}
+.down-wrap .account-sub-contents .padd {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.down-wrap .account-sub-contents .padd .account-index-wrap {
+  width: 20px;
+  height: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 11px;
+}
+.down-wrap .account-sub-contents .padd .account-sub-title-1 {
+  font-size: 13px;
+  padding-left: 10px;
+}
+.down-wrap .account-sub-contents .padd .account-sub-content-1 {
+  font-size: 12px;
+  padding: 10px;
+  color: #888;
+  line-height: 20px;
+}
+.agent-wrap {
+  display: flex;
+}
+.agent-wrap .agent-wrap-left {
+  width: 200px;
+}
+.agent-wrap .agent-wrap-left .el-tree-node__content {
+  height: 40px;
+}
+.agent-wrap .agent-wrap-right {
+  width: 100%;
+}
+.agent-wrap .agent-wrap-right .account-table-1 {
+  margin-bottom: 0px;
+}
+.agent-wrap .agent-wrap-right .account-table-1 thead tr th {
+  border-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  color: #888;
+}
+.agent-wrap .agent-wrap-right .account-table-1 tbody tr td {
+  border-top: 0;
+  font-size: 15px;
+}
+.agent-wrap .agent-wrap-right .account-tab .account-tab-title li {
+  font-size: 14px;
+}
+.agent-wrap .agent-wrap-right .account-tab .account-tab-title .layui-this {
+  color: #0099ff;
+  font-size: 14px;
+}
+.agent-wrap .agent-wrap-right .account-tab .account-tab-title .layui-this::after {
+  border-bottom: 2px solid #0099ff;
+}
+.agent-wrap .agent-wrap-right .account-tab .subagent {
+  display: none;
+}
+.agent-wrap .agent-wrap-right .account-tab .subagent .tb-header .table thead tr th {
+  font-weight: 400;
+  font-size: 15px;
+  border-bottom: 0px;
+}
+.agent-wrap .agent-wrap-right .account-tab .subagent .tb-header .table tbody tr td {
+  font-size: 15px;
+}
+.agent-wrap .agent-wrap-right .account-tab .subagent:nth-of-type(1) {
+  display: block;
+}
+.select_tabs_box {
+  height: 40px;
+  line-height: 30px;
+  padding: 5px 20px 0px 0px;
+}
+.select_tabs_box .select_tabs {
+  font-size: 14px;
+  padding: 5px 20px 9px;
+  border-bottom: 2px solid inherit;
+}
+.select_tabs_box .select_tabs.active {
+  border-bottom: 2px solid #0099ff;
+  color: #0099ff;
+}
+.select_tabs_box .select_tabs:hover {
+  border-bottom: 2px solid #0099ff;
+  text-decoration: none;
+  color: #0099ff;
+}
+.select_tabs_box .select_tabs:focus {
+  text-decoration: none;
+}
+.footbincon {
+  width: 100%;
+  background: #f5f5f5;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 150;
+  border-top: 1px solid #ddd;
+}
+.footbincon1 {
+  line-height: 36px;
+  margin-left: 200px;
+  float: left;
+}
+.footbincon2 {
+  height: 40px;
+  min-width: 200px;
+  line-height: 40px !important;
+  padding: 0 8px;
+  float: right;
+  position: relative;
+}
+.income1,
+.income2 {
+  float: right;
+  margin-right: 30px;
+}
+.income1,
+.income2,
+.income4 {
+  color: #888;
+  font-size: 14px;
+  display: block;
+}
+.income4 {
+  float: left;
+  margin-left: 10px;
+}
+.income3,
+.income5 {
+  color: #222;
+  font-size: 14px;
+}
+.s_bg {
+  background-color: #DFE9F0;
+  padding: 5px 10px;
+}
+.s_bg .s_bg_flex {
+  flex: 9;
+  display: flex;
+}
+.s_bg .s_bg_flex_right {
+  flex: 3;
+  text-align: right;
+}
+.s_padding {
+  margin-right: 10px !important;
+}

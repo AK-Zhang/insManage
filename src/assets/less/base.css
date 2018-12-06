@@ -1,0 +1,207 @@
+html,
+body,
+div,
+header,
+footer,
+section,
+ul,
+li,
+ol,
+dl,
+input,
+a,
+span,
+i,
+s {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+header {
+  min-width: 1300px;
+}
+button,
+a,
+input[type=button],
+input[type=submit]::-moz-focus-inner {
+  outline: 0;
+}
+.home-container {
+  width: 100%;
+  height: 100%;
+  padding-left: 180px;
+  padding-top: 50px;
+  min-width: 1300px;
+}
+a {
+  cursor: pointer;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+#id {
+  min-width: 1280px;
+}
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+.flex {
+  display: flex !important;
+}
+.el-range-separator {
+  width: 10% !important;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-top: 0px !important;
+}
+.table > thead > tr > th {
+  border-bottom: 1px solid #ddd !important;
+}
+.table_bottom > thead > tr > th {
+  border-bottom: none !important;
+}
+.layui_top {
+  margin: 0px !important;
+  height: calc(46%) !important;
+  overflow: hidden;
+}
+.template {
+  width: 100%;
+  height: 100%;
+}
+.template .main {
+  width: 100%;
+  height: 100%;
+}
+.template .main .container-r {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 0px;
+  height: 100%;
+}
+.template .main .container-r .table thead > tr > th:nth-last-of-type(1),
+.template .main .container-r .table tbody > tr > td:nth-last-of-type(1) {
+  text-align: center;
+}
+.template .main .container-r .table thead > tr > th,
+.template .main .container-r .table tbody > tr > td {
+  text-align: center;
+}
+.template .main .container-r .panel-1 {
+  margin-bottom: 0px;
+  height: 100%;
+  border: 0;
+}
+.template .main .container-r .panel-1 .breadcrumb-top {
+  margin-bottom: 0px;
+}
+.template .main .container-r .panel-1 .tb-header {
+  background-color: #F5F6FA;
+}
+.template .main .container-r .panel-1 .dropdown-menu-lef {
+  min-width: 70px;
+  left: -250%;
+}
+.template .main .container-r .panel-11 {
+  height: auto;
+}
+.template .main .container-r .table-1 .table-1-1 {
+  font-size: 14px;
+  background-color: #F5F6FA;
+  border-top: 1px solid #ddd;
+}
+.template .main .table-2 {
+  height: calc(-90%);
+  width: 100%;
+  font-size: 14px;
+  border-bottom: 0px;
+  overflow: auto;
+}
+.template .main .table-2 .table-2-1 {
+  font-size: 14px;
+}
+.template .main .table-2 .table-2-1 .m-tbody tr td:nth-of-type(1) {
+  text-indent: 8px;
+}
+.template .main .table-2 .dropdown-menu-lef {
+  min-width: 70px;
+  left: -250%;
+  font-size: 14px;
+}
+.template .main .page-separation {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size: 12px;
+  transform: translateX(-10%);
+}
+.select_box .template .main .table-2 {
+  height: calc(-60%) !important;
+}
+.template .bg {
+  height: 49px;
+}
+.mask .mask_box .no-border .panel-body .selected .input3 {
+  resize: none;
+}
+td,
+th {
+  font-size: 14px;
+}
+.maye {
+  background-position: -435px -307px !important;
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+  margin-top: 4px;
+  margin-bottom: -4px;
+  background: transparent url(../../assets/images/icons_sprint.png) 50% no-repeat;
+}
+.mamo {
+  background-position: -290px -42px !important;
+}
+.maf1 {
+  background-position: -557px -436px !important;
+}
+.icon_monitor {
+  background-position: -113px -42px !important;
+}
+.icon_admin {
+  background-position: -56px -42px !important;
+}
+.s-height {
+  height: calc(60%);
+  overflow: hidden;
+}
+.table > tbody > tr > td {
+  border-right: 0px solid transparent;
+}
+.panel {
+  border: 0px !important;
+}
+.margin-Top {
+  margin-top: -7px;
+}

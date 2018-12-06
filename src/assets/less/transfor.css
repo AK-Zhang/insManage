@@ -1,0 +1,487 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+.table>thead>tr>th {
+  position: relative;
+  height: 24px;
+  color: #000;
+  line-height: 24px;
+  font-weight: 400
+}
+
+.table>tbody>tr>td,
+.table>thead>tr>th {
+  text-align: left;
+  border: none;
+  /*font-size: 15px*/
+}
+
+.table>tbody>tr>td {
+  color: #333;
+  height: auto;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+  border-right: 5px solid transparent;
+  word-wrap: break-word
+}
+
+.bodyfb {
+  background: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 15px 30px 20px !important
+}
+
+.bodyfb,
+.bodyfb1 {
+  width: 100%
+}
+
+.tablefbd {
+  margin: 0;
+  border: none !important
+}
+
+.tablefbd>thead>tr>th {
+  border: none !important;
+  padding: 0 !important
+}
+
+.bodyfb5 {
+  width: 80px !important;
+  height: 400px
+}
+
+.thfb2 {
+  width: 80px;
+  vertical-align: bottom !important;
+}
+
+.thfb1 {
+  margin-top: 0px;
+  width: 40%;
+  /*vertical-align: top !important;*/
+}
+
+.thfb3 {
+  width: 50%
+}
+
+.bodyfb6 {
+  padding: 0 12px;
+  height: 33px;
+  line-height: 33px;
+  border-radius: 4px;
+  margin: 5px 0 15px;
+  background: #f6f6f6;
+  font-size: 15px;
+  color: #2490f5
+}
+
+.bodyfb41 {
+  border: 1px solid #ddd
+}
+
+.tablefb0 {
+  width: 100%
+}
+
+.tablefb0,
+.tablefb2 {
+  margin-bottom: 0;
+  border: none !important
+}
+
+.tablefb2 {
+  background: #fff
+}
+
+.bodyfb42 {
+  width: 100%;
+  height: 340px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-top: none !important;
+  background: #f4f6f9
+}
+
+.tablefb0>thead {
+  width: calc(100% - .4em)
+}
+
+.tablefb0>thead>tr>th {
+  border: none !important
+}
+
+.tablefb0>thead>tr>th:first-child {
+  width: 40%;
+  padding-left: 15px
+}
+
+.tablefb0>thead>tr>th:nth-child(2) {
+  width: 40%
+}
+
+.tablefb0>thead>tr>th:nth-child(3) {
+  width: 20%
+}
+
+.tablefb2>tbody>tr>td:first-child {
+  width: 40%;
+  padding-left: 15px
+}
+
+.tablefb2>tbody>tr>td:nth-child(2) {
+  width: 40%
+}
+
+.tablefb2>tbody>tr>td:nth-child(3) {
+  width: 20%
+}
+
+.tablefb1>tbody>tr>td,
+.tablefb2>tbody>tr>td {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.bodyfb8 {
+  width: 100%;
+  min-width: 290px;
+  height: 32px;
+  line-height: 32px;
+  margin: 5px 0 15px
+}
+
+/*.hide {*/
+/*display: none;*/
+/*}*/
+.groupfb {
+  display: block !important;
+  width: 48%;
+  float: left
+}
+
+.textfb2 {
+  width: 100%;
+  height: 31px;
+  line-height: 31px;
+  padding: 0 8px !important
+}
+
+.bodyfb83 {
+  float: right;
+  width: 48%;
+  height: 27px;
+  line-height: 27px
+}
+
+.selectfb {
+  font-size: 13px;
+  width: 100%;
+  height: 31px;
+  border-radius: 4px;
+  padding: 5px;
+  border: 1px solid #ddd !important
+}
+
+.selectfb>option {
+  font-size: 13px;
+  color: #222
+}
+
+.tablefb {
+  width: 100%;
+  margin-bottom: 0 !important;
+  border: 1px solid #ddd !important
+}
+
+.tablefb1 {
+  margin-bottom: 0;
+  background: #fff
+}
+
+.tablefb1,
+.tablefb>thead>tr>th {
+  border: none !important
+}
+
+.tablefb>thead>tr>th:first-child {
+  width: 20%;
+  padding-left: 10px
+}
+
+.tablefb>thead>tr>th:nth-child(2),
+.tablefb>thead>tr>th:nth-child(3) {
+  width: 40%
+}
+
+.tablefb1>tbody>tr>td:first-child {
+  width: 20%;
+  padding-left: 12px
+}
+
+.tablefb1>tbody>tr>td:nth-child(2),
+.tablefb1>tbody>tr>td:nth-child(3) {
+  width: 40%
+}
+
+.bodyfb47 {
+  background: transparent url(../../assets/images/icons_sprint.png) 50% no-repeat;
+  background-position: -587px -26px !important
+}
+
+.bodyfb46,
+.bodyfb47 {
+  display: block;
+  width: 20px;
+  height: 20px
+}
+
+.bodyfb46 {
+  background: transparent url(../../assets/images/icons_sprint.png) 50% no-repeat;
+  background-position: -620px -26px !important
+}
+
+.btn2 {
+  border: 1px solid #ccc !important;
+  width: 21px;
+  height: 21px;
+  display: block;
+  padding: 0 !important;
+  line-height: 10px;
+  background: #fff
+}
+
+.btn2:focus,
+.btn2:hover {
+  background: #f2f2f2
+}
+
+.bodyfb51,
+.bodyfb52 {
+  width: 35px;
+  margin: 0 auto;
+  height: 200px;
+  position: relative
+}
+
+.bodyfb53 {
+  background: transparent url(../../assets/images/icons_sprint.png) 50% no-repeat;
+  background-position: -483px -14px !important
+}
+
+.bodyfb53,
+.bodyfb54 {
+  display: inline-block;
+  width: 35px;
+  height: 115px
+}
+
+.bodyfb54 {
+  background: transparent url(../../assets/images/icons_sprint.png) 50% no-repeat;
+  background-position: -526px -12px !important
+}
+
+.btnfb2 {
+  border: none;
+  padding: 0 !important;
+  background: #169bd5 !important;
+  bottom: 20px;
+  border-radius: 6px
+}
+
+.btnfb1,
+.btnfb2 {
+  text-align: center;
+  height: 115px;
+  width: 100%;
+  color: #fff;
+  font-size: 13px;
+  position: absolute
+}
+
+.btnfb1 {
+  border: none;
+  background: #fff !important;
+  border: 1px solid #169bd5;
+  padding: 0;
+  top: 20px;
+  border-radius: 6px
+}
+
+.btnfb2:active,
+.btnfb2:focus,
+.btnfb2:hover {
+  background: #0d81b7 !important;
+  color: #fff;
+  box-shadow: none !important
+}
+
+.btnfb1:active,
+.btnfb1:focus,
+.btnfb1:hover {
+  background: #f6f6f6 !important;
+  color: #fff;
+  box-shadow: none !important
+}
+
+.tablefb1>tbody,
+.tablefb2>tbody {
+  display: block
+}
+
+.tablefb>thead {
+  width: calc(100% - 1em)
+}
+
+.monitorsInfo_ table thead,
+.monitorsInfo_ tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed
+}
+
+.footerfb {
+  width: 100%;
+  height: 50px;
+  line-height: 40px;
+  padding: 0 30px !important;
+  font-size: 12px;
+  color: #999
+}
+
+.fbf {
+  float: left
+}
+
+.fbr {
+  float: right
+}
+
+.drop1 {
+  width: 100%;
+  position: relative
+}
+
+.drop2 {
+  margin-top: 50px
+}
+
+.input_text {
+  width: 100% !important;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-left: 10px;
+  position: relative
+}
+
+.drop_icon {
+  width: 30px;
+  height: 34px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer
+}
+
+.drop_up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #ccc;
+  position: absolute;
+  top: 13px;
+  right: 7px
+}
+
+.drop_icon:hover>.drop_up {
+  border-bottom: 7px solid #4d9bd1
+}
+
+.drop_down {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 7px solid #ccc;
+  position: absolute;
+  top: 14px;
+  right: 7px
+}
+
+.drop_icon:hover>.drop_down {
+  border-top: 7px solid #4d9bd1
+}
+
+.dropdown_selected {
+  background: #eee
+}
+
+.drop_down1 {
+  max-height: 170px
+}
+
+.drop_down1,
+.drop_up1 {
+  position: absolute;
+  background: #fff;
+  top: 36px;
+  width: 99.9%;
+  z-index: 2000 !important;
+  border: 1px solid #31b7f5;
+  overflow: hidden;
+  overflow-y: auto
+}
+
+.drop_up1 {
+  max-height: 200px
+}
+
+.drop_down1>p {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 25px;
+  margin: 5px 0 7px;
+  line-height: 24px;
+  margin-top: 5px
+}
+
+.drop_down1>p:hover {
+  background: #eee
+}
+
+.drop_up1>p {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 25px;
+  line-height: 27px;
+  margin-top: 5px
+}
+
+.drop_up1>p:hover {
+  background: #eee
+}
+
+.drop_down2 {
+  width: 260px;
+  max-height: 150px;
+  border: 1px solid #ddd;
+  margin-top: 6px;
+  overflow: auto
+}
+
+.drop_down3 {
+  width: 80px;
+  height: 30px;
+  margin: 100px auto 0
+}

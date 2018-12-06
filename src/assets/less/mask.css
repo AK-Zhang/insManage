@@ -1,0 +1,721 @@
+.mask,
+.M-mask,
+.config-mask,
+.edit-mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  top: 0;
+  left: 0px;
+  font-family: 'MicrosoftYaHei';
+  color: #555;
+}
+.mask .mask_box,
+.M-mask .mask_box,
+.config-mask .mask_box,
+.edit-mask .mask_box {
+  width: 70%;
+  margin: 0px auto;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-60%);
+}
+.mask .mask_box .no-border,
+.M-mask .mask_box .no-border,
+.config-mask .mask_box .no-border,
+.edit-mask .mask_box .no-border {
+  border: none;
+  position: relative;
+  margin-bottom: 0px;
+}
+.mask .mask_box .no-border .panel-heading,
+.M-mask .mask_box .no-border .panel-heading,
+.config-mask .mask_box .no-border .panel-heading,
+.edit-mask .mask_box .no-border .panel-heading {
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 2px solid #d8dde6;
+}
+.mask .mask_box .no-border .panel-body,
+.M-mask .mask_box .no-border .panel-body,
+.config-mask .mask_box .no-border .panel-body,
+.edit-mask .mask_box .no-border .panel-body {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+.mask .mask_box .no-border .panel-body .select-1,
+.M-mask .mask_box .no-border .panel-body .select-1,
+.config-mask .mask_box .no-border .panel-body .select-1,
+.edit-mask .mask_box .no-border .panel-body .select-1 {
+  width: 30rem;
+  height: 3.5rem;
+  border-radius: 4px;
+}
+.mask .mask_box .no-border .panel-body .error3,
+.M-mask .mask_box .no-border .panel-body .error3,
+.config-mask .mask_box .no-border .panel-body .error3,
+.edit-mask .mask_box .no-border .panel-body .error3 {
+  padding-left: 5px;
+}
+.mask .mask_box .no-border .panel-body .error3 .error4,
+.M-mask .mask_box .no-border .panel-body .error3 .error4,
+.config-mask .mask_box .no-border .panel-body .error3 .error4,
+.edit-mask .mask_box .no-border .panel-body .error3 .error4 {
+  color: red;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1,
+.M-mask .mask_box .no-border .panel-body .bodyfb1,
+.config-mask .mask_box .no-border .panel-body .bodyfb1,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 {
+  width: 100%;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .table,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .table,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .table,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd {
+  margin: 0;
+  border: none!important;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead,
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd tbody tr,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd tbody tr,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd tbody tr,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead > tr > th,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead > tr > th,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead > tr > th,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd thead > tr > th {
+  color: #000;
+  line-height: 24px;
+  font-weight: 400;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb6,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb6,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb6,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb6 {
+  padding: 0 12px;
+  height: 33px;
+  line-height: 33px;
+  border-radius: 4px;
+  margin: 5px 0 15px;
+  background: #f6f6f6;
+  font-size: 15px;
+  color: #2490f5;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 {
+  border: 1px solid #ddd;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 {
+  margin-bottom: 0;
+  border: none!important;
+  width: 100%;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead {
+  width: calc(99.6%);
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:first-child,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:first-child,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:first-child,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:first-child {
+  width: 40%;
+  padding-left: 15px;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(2),
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(2),
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(2),
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(2) {
+  width: 40%;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(3),
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(3),
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(3),
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb41 .tablefb0 > thead > tr > th:nth-child(3) {
+  width: 20%;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42 {
+  width: 100%;
+  height: 340px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-top: none!important;
+  background: #f4f6f9;
+}
+.mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42 .tablefb2 > tbody,
+.M-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42 .tablefb2 > tbody,
+.config-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42 .tablefb2 > tbody,
+.edit-mask .mask_box .no-border .panel-body .bodyfb1 .tablefbd .bodyfb42 .tablefb2 > tbody {
+  display: block;
+}
+.mask .mask_box .no-border .table-no-border,
+.M-mask .mask_box .no-border .table-no-border,
+.config-mask .mask_box .no-border .table-no-border,
+.edit-mask .mask_box .no-border .table-no-border {
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+.mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.M-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.config-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.edit-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1),
+.M-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1),
+.config-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1),
+.edit-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1) {
+  padding-left: 20px;
+}
+.mask .mask_box .no-border .table-no-border .thead-bgc,
+.M-mask .mask_box .no-border .table-no-border .thead-bgc,
+.config-mask .mask_box .no-border .table-no-border .thead-bgc,
+.edit-mask .mask_box .no-border .table-no-border .thead-bgc {
+  background-color: #F6F6F6;
+}
+.mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3),
+.M-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3),
+.config-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3),
+.edit-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3) {
+  color: transparent;
+}
+.mask .mask_box .no-border .table-no-border td,
+.M-mask .mask_box .no-border .table-no-border td,
+.config-mask .mask_box .no-border .table-no-border td,
+.edit-mask .mask_box .no-border .table-no-border td {
+  border: none;
+  vertical-align: middle;
+}
+.mask .mask_box .no-border .table-no-border td input,
+.M-mask .mask_box .no-border .table-no-border td input,
+.config-mask .mask_box .no-border .table-no-border td input,
+.edit-mask .mask_box .no-border .table-no-border td input {
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+.mask .mask_box .no-border .table-no-border td:nth-of-type(3),
+.M-mask .mask_box .no-border .table-no-border td:nth-of-type(3),
+.config-mask .mask_box .no-border .table-no-border td:nth-of-type(3),
+.edit-mask .mask_box .no-border .table-no-border td:nth-of-type(3) {
+  text-align: right;
+}
+.mask .mask_box .no-border .closed,
+.M-mask .mask_box .no-border .closed,
+.config-mask .mask_box .no-border .closed,
+.edit-mask .mask_box .no-border .closed {
+  width: 50px;
+  height: 30px;
+  font-family: "Microsoft YaHei";
+  font-size: 38px;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  cursor: pointer;
+  color: #cccccc;
+}
+.mask .mask_box .no-border .closed:hover,
+.M-mask .mask_box .no-border .closed:hover,
+.config-mask .mask_box .no-border .closed:hover,
+.edit-mask .mask_box .no-border .closed:hover {
+  color: #999;
+}
+.mask .mask_box .no-border > p,
+.M-mask .mask_box .no-border > p,
+.config-mask .mask_box .no-border > p,
+.edit-mask .mask_box .no-border > p {
+  width: 100%;
+  background-color: #F0F0F0;
+  padding: 8px 20px;
+  margin-bottom: 0px;
+}
+.mask .mask_box .no-border > p .fr,
+.M-mask .mask_box .no-border > p .fr,
+.config-mask .mask_box .no-border > p .fr,
+.edit-mask .mask_box .no-border > p .fr {
+  float: right;
+  padding-right: 10px;
+}
+.mask .mask_box .no-border > p .fr .btn-q,
+.M-mask .mask_box .no-border > p .fr .btn-q,
+.config-mask .mask_box .no-border > p .fr .btn-q,
+.edit-mask .mask_box .no-border > p .fr .btn-q {
+  color: #337ab7;
+}
+.mask .mask_box,
+.M-mask .mask_box,
+.config-mask .mask_box,
+.edit-mask .mask_box {
+  width: 40%;
+  min-width: 500px;
+}
+.mask .mask_box .no-border .panel-heading,
+.M-mask .mask_box .no-border .panel-heading,
+.config-mask .mask_box .no-border .panel-heading,
+.edit-mask .mask_box .no-border .panel-heading {
+  font-size: 16px;
+}
+.mask .mask_box .no-border .panel-body,
+.M-mask .mask_box .no-border .panel-body,
+.config-mask .mask_box .no-border .panel-body,
+.edit-mask .mask_box .no-border .panel-body {
+  font-size: 14px;
+}
+.mask .mask_box .no-border .panel-body .error3,
+.M-mask .mask_box .no-border .panel-body .error3,
+.config-mask .mask_box .no-border .panel-body .error3,
+.edit-mask .mask_box .no-border .panel-body .error3 {
+  height: 35px;
+  font-family: "Microsoft YaHei";
+  font-size: 15px;
+  line-height: 25px;
+  padding: 5px;
+}
+.mask .mask_box .no-border .panel-body .selected,
+.M-mask .mask_box .no-border .panel-body .selected,
+.config-mask .mask_box .no-border .panel-body .selected,
+.edit-mask .mask_box .no-border .panel-body .selected {
+  width: 100%;
+  position: relative;
+}
+.mask .mask_box .no-border .panel-body .selected .input-text-bg,
+.M-mask .mask_box .no-border .panel-body .selected .input-text-bg,
+.config-mask .mask_box .no-border .panel-body .selected .input-text-bg,
+.edit-mask .mask_box .no-border .panel-body .selected .input-text-bg {
+  background-color: #eee;
+}
+.mask .mask_box .no-border .panel-body .selected .input-text,
+.M-mask .mask_box .no-border .panel-body .selected .input-text,
+.config-mask .mask_box .no-border .panel-body .selected .input-text,
+.edit-mask .mask_box .no-border .panel-body .selected .input-text {
+  width: 98%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+.mask .mask_box .no-border .panel-body .selected .input-text:focus,
+.M-mask .mask_box .no-border .panel-body .selected .input-text:focus,
+.config-mask .mask_box .no-border .panel-body .selected .input-text:focus,
+.edit-mask .mask_box .no-border .panel-body .selected .input-text:focus {
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #66afe9;
+}
+.mask .mask_box .no-border .panel-body .selected .input-list,
+.M-mask .mask_box .no-border .panel-body .selected .input-list,
+.config-mask .mask_box .no-border .panel-body .selected .input-list,
+.edit-mask .mask_box .no-border .panel-body .selected .input-list {
+  width: 45px;
+  height: 34px;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  text-align: right;
+}
+.mask .mask_box .no-border .panel-body .selected .hide,
+.M-mask .mask_box .no-border .panel-body .selected .hide,
+.config-mask .mask_box .no-border .panel-body .selected .hide,
+.edit-mask .mask_box .no-border .panel-body .selected .hide {
+  display: none;
+}
+.mask .mask_box .no-border .panel-body .selected .drop-list,
+.M-mask .mask_box .no-border .panel-body .selected .drop-list,
+.config-mask .mask_box .no-border .panel-body .selected .drop-list,
+.edit-mask .mask_box .no-border .panel-body .selected .drop-list {
+  position: absolute;
+  background: #fff;
+  top: 36px;
+  width: 100%;
+  border: 1px solid #31b7f5;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 170px;
+  z-index: 99;
+}
+.mask .mask_box .no-border .panel-body .selected .drop-list > p,
+.M-mask .mask_box .no-border .panel-body .selected .drop-list > p,
+.config-mask .mask_box .no-border .panel-body .selected .drop-list > p,
+.edit-mask .mask_box .no-border .panel-body .selected .drop-list > p {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 25px;
+  margin: 5px 0 7px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.mask .mask_box .no-border .panel-body .selected .drop-list > p:hover,
+.M-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover,
+.config-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover,
+.edit-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover {
+  background-color: #eee;
+}
+.mask .mask_box .no-border .panel-body .selected .input3,
+.M-mask .mask_box .no-border .panel-body .selected .input3,
+.config-mask .mask_box .no-border .panel-body .selected .input3,
+.edit-mask .mask_box .no-border .panel-body .selected .input3 {
+  height: 95px;
+  padding: 8px 10px;
+  line-height: 20px;
+  resize: none;
+}
+.mask .mask_box .no-border .panel-body .selected .viewWindow,
+.M-mask .mask_box .no-border .panel-body .selected .viewWindow,
+.config-mask .mask_box .no-border .panel-body .selected .viewWindow,
+.edit-mask .mask_box .no-border .panel-body .selected .viewWindow {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.mask .mask_box .no-border .panel-body .selected .viewWindow:focus,
+.M-mask .mask_box .no-border .panel-body .selected .viewWindow:focus,
+.config-mask .mask_box .no-border .panel-body .selected .viewWindow:focus,
+.edit-mask .mask_box .no-border .panel-body .selected .viewWindow:focus {
+  box-shadow: none;
+}
+.mask .mask_box .no-border .panel-body .selected .textareH,
+.M-mask .mask_box .no-border .panel-body .selected .textareH,
+.config-mask .mask_box .no-border .panel-body .selected .textareH,
+.edit-mask .mask_box .no-border .panel-body .selected .textareH {
+  text-align: left;
+  text-indent: 2rem;
+  min-height: 200px !important;
+}
+.mask .mask_box .no-border .panel-body .modal-body .li_ad,
+.M-mask .mask_box .no-border .panel-body .modal-body .li_ad,
+.config-mask .mask_box .no-border .panel-body .modal-body .li_ad,
+.edit-mask .mask_box .no-border .panel-body .modal-body .li_ad {
+  padding: 15px 0;
+  line-height: 20px;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+  cursor: pointer;
+}
+.mask .mask_box .no-border .panel-body .modal-body .li_ad .checkboxf,
+.M-mask .mask_box .no-border .panel-body .modal-body .li_ad .checkboxf,
+.config-mask .mask_box .no-border .panel-body .modal-body .li_ad .checkboxf,
+.edit-mask .mask_box .no-border .panel-body .modal-body .li_ad .checkboxf {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+  top: 12px;
+}
+.mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf3,
+.M-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf3,
+.config-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf3,
+.edit-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf3 {
+  margin-left: 25px;
+  font-size: 15px;
+  color: #2490f5;
+}
+.mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf4,
+.M-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf4,
+.config-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf4,
+.edit-mask .mask_box .no-border .panel-body .modal-body .li_ad .bodyf4 {
+  margin-top: 6px;
+  padding-left: 30px;
+  font-size: 13px;
+}
+.mask .mask_box .no-border .panel-body .modal-body .bodyf5,
+.M-mask .mask_box .no-border .panel-body .modal-body .bodyf5,
+.config-mask .mask_box .no-border .panel-body .modal-body .bodyf5,
+.edit-mask .mask_box .no-border .panel-body .modal-body .bodyf5 {
+  margin: 15px 0;
+  font-size: 13px;
+  color: #888;
+}
+.mask .mask_box .no-border > p,
+.M-mask .mask_box .no-border > p,
+.config-mask .mask_box .no-border > p,
+.edit-mask .mask_box .no-border > p {
+  height: 46px;
+}
+.del-mask,
+.frozen-mask,
+.dels-mask {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0px;
+  z-index: 1000;
+}
+.del-mask .mask_box,
+.frozen-mask .mask_box,
+.dels-mask .mask_box {
+  width: 70%;
+  height: 49.5rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-70%);
+}
+.del-mask .mask_box .no-border,
+.frozen-mask .mask_box .no-border,
+.dels-mask .mask_box .no-border {
+  border: none;
+  position: relative;
+  margin-bottom: 0px;
+}
+.del-mask .mask_box .no-border .panel-heading,
+.frozen-mask .mask_box .no-border .panel-heading,
+.dels-mask .mask_box .no-border .panel-heading {
+  background-color: #fff;
+  text-align: center;
+  border-bottom: 2px solid #d8dde6;
+}
+.del-mask .mask_box .no-border .panel-body,
+.frozen-mask .mask_box .no-border .panel-body,
+.dels-mask .mask_box .no-border .panel-body {
+  height: 7rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 0px;
+}
+.del-mask .mask_box .no-border .panel-body .select-1,
+.frozen-mask .mask_box .no-border .panel-body .select-1,
+.dels-mask .mask_box .no-border .panel-body .select-1 {
+  width: 30rem;
+  height: 3.5rem;
+  border-radius: 4px;
+}
+.del-mask .mask_box .no-border .panel-body .error3,
+.frozen-mask .mask_box .no-border .panel-body .error3,
+.dels-mask .mask_box .no-border .panel-body .error3 {
+  padding-left: 5px;
+}
+.del-mask .mask_box .no-border .panel-body .error3 .error4,
+.frozen-mask .mask_box .no-border .panel-body .error3 .error4,
+.dels-mask .mask_box .no-border .panel-body .error3 .error4 {
+  color: red;
+}
+.del-mask .mask_box .no-border .table-no-border,
+.frozen-mask .mask_box .no-border .table-no-border,
+.dels-mask .mask_box .no-border .table-no-border {
+  height: 30rem;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+.del-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.frozen-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.dels-mask .mask_box .no-border .table-no-border tr > th:nth-of-type(1),
+.del-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1),
+.frozen-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1),
+.dels-mask .mask_box .no-border .table-no-border tr > td:nth-of-type(1) {
+  padding-left: 20px;
+}
+.del-mask .mask_box .no-border .table-no-border .thead-bgc,
+.frozen-mask .mask_box .no-border .table-no-border .thead-bgc,
+.dels-mask .mask_box .no-border .table-no-border .thead-bgc {
+  background-color: #F6F6F6;
+}
+.del-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3),
+.frozen-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3),
+.dels-mask .mask_box .no-border .table-no-border .thead-bgc > tr > th:nth-of-type(3) {
+  color: transparent;
+}
+.del-mask .mask_box .no-border .table-no-border td,
+.frozen-mask .mask_box .no-border .table-no-border td,
+.dels-mask .mask_box .no-border .table-no-border td {
+  border: none;
+  vertical-align: middle;
+}
+.del-mask .mask_box .no-border .table-no-border td input,
+.frozen-mask .mask_box .no-border .table-no-border td input,
+.dels-mask .mask_box .no-border .table-no-border td input {
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+.del-mask .mask_box .no-border .table-no-border td:nth-of-type(3),
+.frozen-mask .mask_box .no-border .table-no-border td:nth-of-type(3),
+.dels-mask .mask_box .no-border .table-no-border td:nth-of-type(3) {
+  text-align: right;
+}
+.del-mask .mask_box .no-border .closed,
+.frozen-mask .mask_box .no-border .closed,
+.dels-mask .mask_box .no-border .closed {
+  width: 50px;
+  height: 30px;
+  font-family: "Microsoft YaHei";
+  font-size: 38px;
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  cursor: pointer;
+  color: #cccccc;
+}
+.del-mask .mask_box .no-border .closed:hover,
+.frozen-mask .mask_box .no-border .closed:hover,
+.dels-mask .mask_box .no-border .closed:hover {
+  color: #999;
+}
+.del-mask .mask_box .no-border > p,
+.frozen-mask .mask_box .no-border > p,
+.dels-mask .mask_box .no-border > p {
+  width: 100%;
+  background-color: #F0F0F0;
+  padding: 8px 20px;
+  margin-bottom: 0px;
+}
+.del-mask .mask_box .no-border > p .fr,
+.frozen-mask .mask_box .no-border > p .fr,
+.dels-mask .mask_box .no-border > p .fr {
+  float: right;
+  padding-right: 10px;
+}
+.del-mask .mask_box .no-border > p .fr .btn-q,
+.frozen-mask .mask_box .no-border > p .fr .btn-q,
+.dels-mask .mask_box .no-border > p .fr .btn-q {
+  color: #337ab7;
+}
+.del-mask,
+.frozen-mask,
+.dels-mask {
+  display: none;
+}
+.del-mask .mask_box,
+.frozen-mask .mask_box,
+.dels-mask .mask_box {
+  width: 40%;
+  min-width: 500px;
+  height: 162px;
+}
+.del-mask .mask_box .no-border .panel-heading,
+.frozen-mask .mask_box .no-border .panel-heading,
+.dels-mask .mask_box .no-border .panel-heading {
+  font-size: 16px;
+}
+.del-mask .mask_box .no-border .panel-body,
+.frozen-mask .mask_box .no-border .panel-body,
+.dels-mask .mask_box .no-border .panel-body {
+  font-size: 14px;
+}
+.del-mask .mask_box .no-border .panel-body .error3,
+.frozen-mask .mask_box .no-border .panel-body .error3,
+.dels-mask .mask_box .no-border .panel-body .error3 {
+  text-align: center;
+  font-size: 16px;
+  height: 25px;
+}
+.del-mask .mask_box .no-border .panel-body .selected,
+.frozen-mask .mask_box .no-border .panel-body .selected,
+.dels-mask .mask_box .no-border .panel-body .selected {
+  width: 100%;
+  position: relative;
+}
+.del-mask .mask_box .no-border .panel-body .selected .input-text,
+.frozen-mask .mask_box .no-border .panel-body .selected .input-text,
+.dels-mask .mask_box .no-border .panel-body .selected .input-text {
+  width: 98%;
+  height: 34px;
+  line-height: 34px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding-left: 10px;
+  position: relative;
+}
+.del-mask .mask_box .no-border .panel-body .selected .input-text:focus,
+.frozen-mask .mask_box .no-border .panel-body .selected .input-text:focus,
+.dels-mask .mask_box .no-border .panel-body .selected .input-text:focus {
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #66afe9;
+}
+.del-mask .mask_box .no-border .panel-body .selected .input-list,
+.frozen-mask .mask_box .no-border .panel-body .selected .input-list,
+.dels-mask .mask_box .no-border .panel-body .selected .input-list {
+  width: 22px;
+  height: 34px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.del-mask .mask_box .no-border .panel-body .selected .drop-list,
+.frozen-mask .mask_box .no-border .panel-body .selected .drop-list,
+.dels-mask .mask_box .no-border .panel-body .selected .drop-list {
+  position: absolute;
+  background: #fff;
+  top: 36px;
+  width: 100%;
+  border: 1px solid #31b7f5;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 170px;
+}
+.del-mask .mask_box .no-border .panel-body .selected .drop-list .drop-selected,
+.frozen-mask .mask_box .no-border .panel-body .selected .drop-list .drop-selected,
+.dels-mask .mask_box .no-border .panel-body .selected .drop-list .drop-selected {
+  background-color: #eee;
+}
+.del-mask .mask_box .no-border .panel-body .selected .drop-list > p,
+.frozen-mask .mask_box .no-border .panel-body .selected .drop-list > p,
+.dels-mask .mask_box .no-border .panel-body .selected .drop-list > p {
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  padding-left: 25px;
+  margin: 5px 0 7px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+.del-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover,
+.frozen-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover,
+.dels-mask .mask_box .no-border .panel-body .selected .drop-list > p:hover {
+  background-color: #eee;
+}
+.del-mask .mask_box .no-border .panel-body .selected .hide,
+.frozen-mask .mask_box .no-border .panel-body .selected .hide,
+.dels-mask .mask_box .no-border .panel-body .selected .hide {
+  display: none;
+}
+.del-mask .mask_box .no-border > p,
+.frozen-mask .mask_box .no-border > p,
+.dels-mask .mask_box .no-border > p {
+  height: 46px;
+}
+.el-message {
+  top: 40% !important;
+}
